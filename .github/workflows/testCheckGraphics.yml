@@ -30,11 +30,11 @@ jobs:
 
         base_folder = 'Base'
         folders = os.listdir(base_folder)
-        print(folders)
+        games = ''
         for folder in folders:
             result, msg = check_graphics(folder)
             if not result :
-                print('Check thành công')
-            else:
-                print('nonononono')
+                games += folder + ' '
+        if len(game):
+          print('Game chưa có đồ họa: ' + games)
         "
