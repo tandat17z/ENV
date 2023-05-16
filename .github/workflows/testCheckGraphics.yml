@@ -35,6 +35,6 @@ jobs:
             result, msg = check_graphics(folder)
             if not result :
                 games += folder + ' '
-        if len(game):
+        if len(games):
           print('Game chưa có đồ họa: ' + games)
         "
