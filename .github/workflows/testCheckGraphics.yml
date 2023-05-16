@@ -34,7 +34,7 @@ jobs:
         for folder in folders:
             result, msg = check_graphics(folder)
             if not result :
-                games += folder + ' '
+                games += folder + ', '
         if len(games):
           print('Game chưa có đồ họa: ' + games)
         "
