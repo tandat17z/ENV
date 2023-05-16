@@ -32,7 +32,7 @@ jobs:
         folders = os.listdir(base_folder)
         print(folders)
         for folder in folders:
-            result, msg = check_graphics(os.path.join(base_folder, folder))
+            result, msg = check_graphics(folder)
             if not result :
                 print('Check thành công')
             else:
