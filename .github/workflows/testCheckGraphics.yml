@@ -30,6 +30,7 @@ jobs:
 
         base_folder = 'Base'
         folders = os.listdir(base_folder)
+        print(folders)
         for folder in folders:
             result, msg = check_graphics(os.path.join(base_folder, folder))
             if not result :
