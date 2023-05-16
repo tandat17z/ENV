@@ -34,4 +34,6 @@ jobs:
             result, msg = check_graphics(os.path.join(base_folder, folder))
             if not result :
                 print('Check thành công')
+            else:
+                print('nonononono')
         "
